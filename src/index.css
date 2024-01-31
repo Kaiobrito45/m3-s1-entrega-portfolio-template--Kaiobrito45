@@ -1,0 +1,310 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--white, #fff);
+    font-family: Inter;
+    font-size: .875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 6rem;
+    margin-top: 1.2rem
+}
+
+.menu {
+    display: flex
+}
+
+.menuItem1 {
+    margin: 0 3.75rem
+}
+
+.menuItem2 {
+    margin-left: 0
+}
+
+.menuItem3{
+    margin-right: 0
+}
+
+.extraItem {
+    width: 7.125rem;
+    height: 2.4375rem;
+    flex-shrink: 0;
+    border-radius: .75rem;
+    background: var(--purple, #6880ff);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+:root {
+    --background: linear-gradient( 180deg, #0c0c0c 0%, rgba(12, 12, 12, .94) 100% );
+    --paragraph: Inter;
+    --font-poppins: Poppins;
+    --font-size-sm: .88rem;
+    --paragraph-size: 1rem;
+    --font-size-mini: .94rem;
+    --font-size-29xl: 3rem;
+    --font-size-21xl: 2.5rem;
+    --font-size-3xl: 1.38rem;
+    --white: #fff;
+    --purple: #6880ff;
+    --color-black: #000;
+    --color-gray-100: rgba(255, 255, 255, .5);
+    --br-xs: 12px;
+    --br-6xl: 25px
+}
+
+a {
+    color: var(--white);
+    cursor: pointer;
+    text-decoration: none
+}
+
+body {
+    font-family: Inter,sans-serif;
+    background: var(--background);
+    color: var(--white);
+    max-width: 90rem;
+    margin: 0 auto
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.all {
+    padding: 0 10rem
+}
+
+.name {
+    position: relative;
+    font-size: 15px;
+    font-family: Poppins;
+    color: var(--purple);
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: .56rem
+}
+
+.welcome {
+    position: relative;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: Inter;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 1.44rem
+}
+
+.bio {
+    position: relative;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Inter;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 3rem
+}
+
+.button {
+    border-radius: .75rem;
+    border: 1px solid #000;
+    background: var(--purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 2.4rem
+}
+
+.AboutMeSection {
+    margin-top: 6.1rem;
+    display: flex;
+    min-width: 0
+}
+
+.bioTitle {
+    font-size: 40px;
+    font-weight: 800;
+    flex: 1
+}
+
+.bioText {
+    top: 0px;
+    left: 281px;
+    line-height: 30px;
+    display: inline-block;
+    max-width: 50rem;
+    flex: 2
+}
+
+.technologies {
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center
+}
+
+._technologyCard {
+    display: flex;
+    border-radius: 25px;
+    border: 1px solid rgba(255,255,255,.5);
+    width: 20.9375rem;
+    height: 5.375rem;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.techName {
+    color: var(--white);
+    font-family: Inter;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal
+}
+
+.title {
+    display: flex;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    font-size: 40px;
+    font-weight: 800;
+    flex-basis: 100%
+}
+
+.cards {
+    display: flex;
+    gap: 1.05rem;
+    justify-content: flex-start;
+    width: 70rem;
+    flex-wrap: wrap;
+    margin: 4rem auto
+}
+
+.button {
+    margin-top: 2rem;
+    color: var(--purple);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem;
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit
+}
+
+.title {
+    display: flex;
+    margin-top: 6rem;
+    margin-bottom: 1.8rem;
+    flex-wrap: wrap;
+    font-size: 40px;
+    font-weight: 800;
+    flex-basis: 100%
+}
+
+.projects {
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap
+}
+
+.projectsCard {
+    padding: 2rem;
+    display: flex;
+    border-radius: 25px;
+    border: 1px solid rgba(255,255,255,.5);
+    width: 27.4375rem;
+    height: 11.4375rem;
+    flex-shrink: 0;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column
+}
+
+.projectTitle0 {
+    color: var(--white);
+    font-family: Inter;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 1.05rem
+}
+
+.project {
+    color: var(--white);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem
+}
+
+.logo {
+    box-sizing: content-box!important
+}
+
+.title {
+    display: flex;
+    margin-bottom: 1.8rem;
+    flex-wrap: wrap;
+    font-size: 40px;
+    font-weight: 800;
+    flex-basis: 100%;
+    margin-top: 2rem
+}
+
+.todosOsDireitos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+}
+
+.icon {
+    margin-top: 3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0
+}
+
+.icons {
+    display: flex;
+    gap: .45rem
+}
+
+.icon2 {
+    margin-top: 3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0
+}
+
+.contato {
+    margin-top: 4rem;
+    padding-top: .2rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid var(--white);
+    border-bottom: 1px solid var(--white);
+    margin-bottom: 2rem
+}
+
+.icons{
+    padding: 0 10rem
+}
